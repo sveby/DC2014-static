@@ -5,8 +5,9 @@
 body {font-family: 'Ubuntu-R','BebasNeue','Ubuntu-RI';padding:0;margin:0;font-size:14px;background-color:#ffffff;color:#57b4db;}
 a {text-decoration:none;font-family: 'Ubuntu-R';color:#57b4db;}/*opacity:0.7*/
 a:hover {text-decoration:underline;}
+.ui-widget-content a {color:#57b4db !important;}
 h2 {color:#2c2c2c;z-index:0}
-p {text-align:justify;}
+p {text-align:justify; font-size:15px;}
 .t_d_u {text-decoration:underline;}
 
 .ui{font-family: "Ubuntu-RI";}
@@ -56,7 +57,7 @@ p {text-align:justify;}
 .h26 {height:28px;}
 .h20 {height:20px;}
 
-.logo {position:absolute;top:5px;left:15%;z-index:102;}
+.logo {position:absolute;top:5px;left:7%;z-index:102;}
 .nav {position:absolute;top:0px;left:0px;width:100%;height:50px;text-align:center;z-index:99}
 .nav_triangle{display:hidden}
 .nav_links {padding-top:20px;padding-right:15px;}
@@ -68,7 +69,7 @@ p {text-align:justify;}
 .main_logo{position:absolute;margin:auto;text-align:center;width:100%;height:100%;top:110px;z-index:98}
 .main_img{display:inline-block;max-width:50%;}
 
-.pos_sponsor {position:absolute;width:570px;height:200px;top:360px;right:50%;margin-right:-300px;opacity:1;z-index:101}
+.pos_sponsor {position:absolute;width:570px;height:200px;top:360px;right:50%;margin-right:-300px;opacity:1;z-index:100}
 .sponsor{z-index:100;background-color:#264d62;opacity:0.4;}
 .b_txt {text-align:center;}
 .n_txt {top:445px;}
@@ -81,16 +82,17 @@ p {text-align:justify;}
 .sub_panel {margin:auto;width:1000px;}
 .info {margin:auto;display:inline-block;padding-top:15px;vertical-align:top;text-align:left;}
 .info1 {float:left;width:600px;}
-.info2 {width:350px;}
+.info2 {width:350px; padding-left:40px;}
 
 
-.main_panel{position:relative;top:650px;width:100%;height:800px;}
+.main_panel{position:relative;top:650px;width:100%;min-height:420px;}
 .news_bar {width:300px;min-height:60px;border-bottom:1px solid #d9d9d9;}
 .news_c {height:40px;}
 .news_s {height:15px;}
 
-.speakers{position:relative;top:500px;width:100%;background-color:#f8f8f8;color:#ffffff;height:280px;text-align:center;}
+.speakers{position:relative;top:500px;width:100%;background-color:#f8f8f8;color:#ffffff;height:295px;text-align:center;}
 .img_sp {display:inline-block;margin-right:15px;width:135px;height:135px;background-color:#57b4db;color:#ffffff;}
+.img_sp:hover { color: #57b4db}
 .naz_sp {display:none;width:135px;height:135px;background-color:#57b4db;}
 .img_sp:hover .img_sp1{opacity:0.4;}
 .img_sp:hover .naz_sp{display:block;}
