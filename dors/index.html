@@ -10,22 +10,42 @@
 	<link rel="stylesheet" href="ui-css/jquery-ui.min.css" />
 	<script src="js/jquery-1.10.2.js"></script>
 	<script src="js/ui-minified/jquery-ui.min.js"></script>
-
+	
+	<script>
+        $(function() {
+            $(".scroll").click(function (event) {
+                event.defaultPrevented = 1;
+                //calculate destination place
+                var dest = 0;
+                if ($(this.hash).offset().top > $(document).height() - $(window).height()) {
+                    dest = $(document).height() - $(window).height();
+                } else {
+                    dest = $(this.hash).offset().top;
+                }
+                //go to destination
+                $('html,body').animate({
+                    scrollTop: dest
+                }, 2000, 'swing');
+            });
+        });
+	</script>
+	
 </head>
+
 
 <body>
 <div class="logo"><img src="logo.png"></div>
 
 <div class="nav ddg ib">
 	 <div class="nav_triangle"></div>
-	 <div class="nav_links ib"><a class="f16" href="http://2014.dorscluc.org/">Home</a></div>
+	 <!--<div class="nav_links ib"><a class="f16" href="http://2014.dorscluc.org/">Home</a></div>-->
 	 <!-- Not yet: -->
-	 <div class="nav_links ib"><a class="f16" href="#zasto" id="open_schedule_dialog">Convention Schedule</a></div>
-	 <div class="nav_links ib"><a class="f16" href="#kn">Keynote speakers</a></div>
+	 <!-- <div class="nav_links ib"><a class="f16" href="#zasto" id="open_schedule_dialog">Convention Schedule</a></div> -->
+	 <div class="nav_links ib"><a class="f16 scroll" href="#kn">Keynote speakers</a></div>
 	 <!-- Download full sponsorship brochure: -->
-	 <div class="nav_links ib"><a id="open_sponsorship_dialog" class="f16" href="#on">Sponsorship</a></div>
-	 <div class="nav_links ib"><a class="f16" href="#" id="open_media_dialog">Media sponsors</a></div>
-	 <div class="nav_links ib"><a class="f16" href="http://www.dorscluc.org/?page_id=37">Organisers</a></div>
+	 <div class="nav_links ib"><a id="open_sponsorship_dialog" class="f16">Sponsorship</a></div>
+	 <div class="nav_links ib"><a class="f16" id="open_media_dialog">Media sponsors</a></div>
+	 <div class="nav_links ib"><a class="f16" id="open_organizers_dialog">Organisers</a></div>
 </div>
 
 <!-- Dialogs javascript: -->
@@ -56,13 +76,20 @@
 	                $("#volunteers_dialog").dialog("open");
 	                $("#volunteers_dialog").dialog({width:"67%"});
                 });
-                
 	        });
 	        $(function() {
 	            $("#schedule_dialog").dialog({autoOpen: false});
 	            $("#open_schedule_dialog").click(function() {
 	                $("#schedule_dialog").dialog("open");
 	                $("#schedule_dialog").dialog({width:"67%"});
+                });
+	        });
+	        
+	        $(function() {
+	            $("#organizers_dialog").dialog({autoOpen: false});
+	            $("#open_organizers_dialog").click(function() {
+	                $("#organizers_dialog").dialog("open");
+	                $("#organizers_dialog").dialog({width:"500px"});
                 });
 	        });
 	 </script>
@@ -72,14 +99,59 @@
 </div>	 
  
 <div id="sponsorship_dialog" title="Call for sponsors">
-   We invite all businesses, individuals and institutions to assist in sponsoring DORS/CLUC 2014, the 21st DORS/CLUC - largest and most visited of the conferences on this subject in the region. Seize the opportunity to advertise your businesses to the visitors of the conference! DORS / CLUC has always been designed and prepared as a non-profit conference, with the sole aim of sponsorships to cover the cost of financing the organization. For details about sponsorship options and conditions please contact us through <a href="mailto:info@dorscluc.org">info@dorscluc.org</a>.
+   <p>We invite all businesses, individuals and institutions to assist in sponsoring DORS/CLUC 2014, the 21st DORS/CLUC - largest and most visited of the conferences on this subject in the region.</p> 
+   <p>Seize the opportunity to advertise your businesses to the visitors of the conference! DORS / CLUC has always been designed and prepared as a non-profit conference, with the sole aim of sponsorships to cover the cost of financing the organization. For details about sponsorship options and conditions please contact us through <a href="mailto:info@dorscluc.org">info@dorscluc.org</a>.</p>
 </div>	 
+
 <div id="volunteers_dialog" title="We need you!">
-    We invite all interested parties to help with the preparation and holding of conferences to contact us at <a href="mailto:info@dorscluc.org">info@dorscluc.org</a> (with an indication of when you are free). Volunteer work includes preparations of materials for participants, accreditation, security guards at entrances, information providers, preparing drinks and snacks, wearing a microphone during keynotes, and the like. You all get a free admission to the conference and a hot meal.
+    <p>We invite all interested parties to help with the preparation and holding of conferences to contact us at <a href="mailto:info@dorscluc.org">info@dorscluc.org</a> (with an indication of when you are free).</p> 
+    <p>Volunteer work includes preparations of materials for participants, accreditation, security guards at entrances, information providers, preparing drinks and snacks, wearing a microphone during keynotes, and the like. You all get a free admission to the conference and a hot meal.</p>
 </div>
 
 <div id="schedule_dialog" title="Nope, still too early!">
     Sorry, nothing yet.. please check back soon, or follow us on <a href="">Twitter</a>, <a href="">Facebook</a> or <a href="">Google+</a>!
+</div>
+
+<div id="organizers_dialog" title="Organizers">
+    <table>
+        <tr>
+            <td style="padding-top:0px" valign="top">
+                <img  title="hropen-logo-mini" src="http://www.dorscluc.org/wp-content/uploads/2012/12/hropen-logo-mini.png" alt="" width="210" />
+                <br>
+                <a href="http://www.open.hr">Croatian Association for Open<br>
+                Systems and Internet</a><br><br>
+                <i>Unska 3<br>
+                10 000 Zagreb<br>
+                Croatia<br><br></i>
+                Phone: + 385 (0)1 6129 674<br>
+                IBAN: HR5023600001101557175<br>
+                Matični broj: 1602845<br>
+                OIB: 09913557986<br>
+            </td>
+            
+            <td style="padding-top:0px; padding-left:10px;" valign="top">
+                    <img title="hulk-logo-mini" src="http://www.dorscluc.org/wp-content/uploads/2012/12/hulk-logo-mini.jpg" alt="" width="210" height="72" />
+                
+                <div><a href="http://www.linux.hr">Croatian Linux Users' Association</a></div>
+                <br>
+                <i>Lastovska 9<br>
+                10 000 Zagreb<br>
+                Croatia<br><br></i>
+                Ban acc. no: 2340009-1110161537<br>
+                Matični broj: 1875833<br>
+                OIB: 09478538040<br>
+                
+                
+                 LinkedIn: <a href="http://www.linkedin.com/e/gis/45456/12F1440B06D8" target="_blank">HULK/CLUG</a>
+                 <br />
+                
+                 Facebook: <a href="http://www.facebook.com/group.php?gid=6399423804" target="_blank">HULK</a>
+                 <br />
+                
+                 Google (+): <a href="https://plus.google.com/b/110735722057328263934/110735722057328263934" target="_blank">HULK</a>
+            </td>
+        </tr>
+    </table>
 </div>
 
 <div class="img_main">
@@ -100,18 +172,18 @@
 			<div class="i_b_txt bn f52 w h52">Applications for</div>
 			<div class="i_b_txt bn f52 w h52">keynotes/workshops</div>
 			<div class="i_s f18 w">
-				<a href="">are now possible!</a>
+				<a href="#kn" class="scroll">are now possible!</a>
 			</div>
-			<a class="i_b_txt bn f52 w pt20" style="display:block;" href="#" id="open_volunteers_dialog">
+			<a class="i_b_txt bn f52 w pt20" style="display:block;"  id="open_volunteers_dialog">
 					Applications for volounteers
 			</a>
 		</div>
 		<div class="info info2">
 			<div class="b bn f52 h52">Open informatics</div>
 			<div class="b bn f52 h52">Award 2014</div>
-			<div class="b f18 pt28 h20"><a class="t_d_u" href="#" style="display:block">Apply here</a></div>
-			<div class="f13 h20 w">Deadline for applications is 15 May 2014.</div>
-			<div class="f18 h20"><a style="display:block" class="w  t_d_u" href="http://www.open.hr/djelatnosti/nagrada-otvorena-informatika/" target="_blank">Who can apply for the contest?</a></div>
+			<!--<div class="b f18 pt28 h20"><a class="t_d_u" href="#" style="display:block">Apply here</a></div>-->
+			<div class="f13 h52 w">The contest will be announced soon, only Croatian entities can apply.</div>
+			<div class="f18 h20"><a style="display:block" class="w  t_d_u" href="http://www.open.hr/djelatnosti/nagrada-otvorena-informatika/" target="_blank">Read the rules here</a></div>
 		</div>
 	</div>
 </div>
@@ -132,8 +204,9 @@
 	<div class="info info2">
 	<div class="up_arrow"></div>
 	<div class="news_bar">
-	<div class="news_c b f16">Latest notifications about<br> DORS/CLUC 2013</div>
-	<div class="news_sub dg f12">Posted on May 20, 2013 by Jasna</div>
+	<!--<div class="news_c b f16">Latest notifications about<br> DORS/CLUC 2014</div>-->
+	<div class="news_c b f16">DORS/CLUC 2014 site is born! </div>
+	<div class="news_sub dg f12">Posted on Feb 4, 2014 by Svebor</div>
 	</div>
 	<div class="up_arrow"></div>
 	</div>
@@ -144,7 +217,9 @@
 
 <div class="speakers">
 <div class="sub_panel">
-<div class="info info1 bn f36 ib"><div class="ib lg" id="kn">KEYNOTE SPEAKERS</div><div class="ib dg p10">2014</div></div>
+<div class="info info1 bn f36 ib">
+    <div class="ib lg" id="kn">KEYNOTE SPEAKERS</div><div class="ib dg p10">2014</div>
+</div>
 <div class="info info2 ib"><div class="f18 b t_a_r">view all speakers</div></div>
 <div class="sub_panel ib">
 <div class="img_sp"><img class="img_sp1" src="speakers/unk.gif">You</div>
@@ -156,7 +231,7 @@
 </div>
 <div class="sub_panel t_a_l f17 b p52 pt8">Could it be you?</div>
 <div class="sub_panel t_a_l f13 lg pt8">Speakers for 2014 are yet to be announced! Stay up to date via newsletter, our social networks or check our page regulary! :) <br>
-For future speakers: a call for Keynotes and Workshops will be announced at the time. But if you are impatient <a href="mailto:info@dorscluc.org">contact us freely</a>.</div>
+For future speakers: a call for Keynotes and Workshops will be announced, but if you are impatient <a href="mailto:info@dorscluc.org">contact us freely</a> or <a href="https://docs.google.com/spreadsheet/viewform?formkey=dDFSUDE0U0RRUUF4bzN6S2pCUXpXUVE6MA" target="_blank">pre-register early!</a></div>
 </div>
 
 
@@ -183,14 +258,18 @@ For future speakers: a call for Keynotes and Workshops will be announced at the 
 
 <div class="social">
 <div class="sub_panel">
-<div class="info info1 f23 b">Don't miss the news! Apply for newsletter</div>
+<div class="info info1 f23 b"><!--Don't miss the news! Apply for newsletter--></div>
 <div class="info info2 f23 b">Follow us on social networks:</div>
 </div>
 <div class="sub_panel">
 <div class="info info1">
-<input class="i_text" name="email" type="text" id="email" maxlength=35>
+<!--<input class="i_text" name="email" type="text" id="email" maxlength=35>-->
 </div>
-<div class="info info2"></div>
+<div class="info info2">
+    <a href="https://www.facebook.com/dorscluc" class="social_icon"><img src="social_icons/facebook.png" /></a>
+    <a href="https://www.twitter.com/dorscluc" class="social_icon"><img src="social_icons/twitter.png" /></a>
+    <a href="http://www.flickr.com/search/?q=dorscluc" class="social_icon"><img src="social_icons/youtube.png"/></a>
+</div>
 </div>
 </div>
 
