@@ -76,6 +76,10 @@
 	                $("#volunteers_dialog").dialog("open");
 	                $("#volunteers_dialog").dialog({width:"67%"});
                 });
+                $("#secondary_open_volunteers_dialog").click(function() {
+                    $("#open_volunteers_dialog").dialog("open");
+                    $("#open_volunteers_dialog").dialog({width:"67%"});
+                });
 	        });
 	        $(function() {
 	            $("#schedule_dialog").dialog({autoOpen: false});
@@ -99,12 +103,13 @@
 </div>	 
  
 <div id="sponsorship_dialog" title="Call for sponsors">
-   <p>We invite all businesses, individuals and institutions to assist in sponsoring DORS/CLUC 2014, the 21st DORS/CLUC - largest and most visited of the conferences on this subject in the region.</p> 
-   <p>Seize the opportunity to advertise your businesses to the visitors of the conference! DORS / CLUC has always been designed and prepared as a non-profit conference, with the sole aim of sponsorships to cover the cost of financing the organization. For details about sponsorship options and conditions please contact us through <a href="mailto:info@dorscluc.org">info@dorscluc.org</a>.</p>
+   <p>We invite all businesses, individuals and institutions to assist in sponsoring DORS/CLUC 2014, the 21st DORS/CLUC - largest and most visited free and open source conference in the region.</p> 
+   <p>Seize the opportunity to advertise your businesses to the visitors of the conference! <br>
+   DORS / CLUC has always been designed and prepared as a non-profit conference, with the sole aim of sponsorships to cover the cost of financing the organization. For details about sponsorship options and conditions please contact us through <a href="mailto:info@dorscluc.org">info@dorscluc.org</a>.</p>
 </div>	 
 
 <div id="volunteers_dialog" title="We need you!">
-    <p>We invite all interested parties to help with the preparation and holding of conferences to contact us at <a href="mailto:info@dorscluc.org">info@dorscluc.org</a> (with an indication of when you are free).</p> 
+    <p>We invite all interested parties to help with the preparation and holding of conferences to <a href="https://docs.google.com/spreadsheet/viewform?usp=drive_web&formkey=dE1JSHFJTktUMVlpbDhkZXJSWXU0VVE6MA#gid=0" target="_blank">register</a> or contact us at <a href="mailto:info@dorscluc.org">info@dorscluc.org</a> (with an indication of when you are free).</p> 
     <p>Volunteer work includes preparations of materials for participants, accreditation, security guards at entrances, information providers, preparing drinks and snacks, wearing a microphone during keynotes, and the like. You all get a free admission to the conference and a hot meal.</p>
 </div>
 
@@ -158,9 +163,11 @@
 	<!--<div class="header">-->
 	<img class="img_main" src="back.jpg">
 	<div class="pos_sponsor sponsor"></div>
-	<div class="pos_sponsor b_txt f42 w">Want to be a sponsor?</div>
-	<div class="pos_sponsor n_txt f14 w">Want to connect with your users or introduce yourself to the opensource community?<br>There is no better place than the biggest croatian open technology conference.</div>
-	<div class="pos_sponsor m_txt"><a class="f25 w" id="secondary_open_sponsorship_dialog" href="#">contact us!</a></div>
+	<div class="pos_sponsor b_txt f42 w">
+	    <a id="secondary_open_sponsorship_dialog" class="w">Want to be a sponsor?</a>
+	</div>
+	<div class="pos_sponsor n_txt f14 w">Want to connect with your users or introduce yourself to the open source community?<br>There is no better place than the biggest croatian open technology conference.</div>
+	<div class="pos_sponsor m_txt"><a class="f25 w" href="mailto:info@dorscluc.org">contact us!</a></div>
 	<!--<div class="pos_sponsor bm_txt w">or <a class="f18 w" href>contact</a> us the way you prefer :)</div>-->
 </div>
 
@@ -169,11 +176,13 @@
 <div class="panel">
 	<div class="sub_panel">
 		<div class="info info1">
-			<div class="i_b_txt bn f52 w h52">Applications for</div>
-			<div class="i_b_txt bn f52 w h52">keynotes/workshops</div>
-			<div class="i_s f18 w">
-				<a href="#kn" class="scroll">are now possible!</a>
-			</div>
+		    <a href="https://docs.google.com/spreadsheet/viewform?usp=drive_web&formkey=dDFSUDE0U0RRUUF4bzN6S2pCUXpXUVE6MA#gid=0" target="_blank" class="scroll w">
+                <div class="i_b_txt bn f52 w h52">Applications for</div>
+                <div class="i_b_txt bn f52 w h52">keynotes/workshops</div>
+                <div class="i_s f18 ">
+                    are now possible!
+                </div>
+			</a>
 			<a class="i_b_txt bn f52 w pt20" style="display:block;"  id="open_volunteers_dialog">
 					Applications for volounteers
 			</a>
@@ -237,7 +246,7 @@ For future speakers: a call for Keynotes and Workshops will be announced, but if
 
 <div class="sp_sch">
 <div class="sub_panel b_top pb5">
-<div class="info info1 bn f24"><div class="ib lg">Schedule</div><div class="ib dg p10">of 2014 convention</div></div>
+<div class="info info1 bn f24"><div class="ib lg">Schedule</div><div class="ib dg p10">of 2014 conference</div></div>
 <div class="info info2"><div class="button bn f23 w">Still too early!</div></div>
 </div>
 <!--<div class="sub_panel b_top pb5">
