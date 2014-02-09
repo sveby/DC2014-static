@@ -61,6 +61,7 @@ p {text-align:justify; font-size:15px;}
 .h20 {height:20px;}
 
 .logo {position:absolute;top:5px;left:15%;z-index:102;}
+.logo .date {font-size:16px; font-weight:bold;}
 .nav {position:absolute;top:0px;left:0px;width:100%;height:50px;text-align:center;z-index:99}
 .nav_triangle{display:hidden}
 .nav_links {padding-top:20px;padding-right:15px;}
@@ -70,6 +71,7 @@ p {text-align:justify; font-size:15px;}
 .header {position:absolute;top:50px;}
 .img_main {position:absolute;width:100%;height:600px;left:0px;text-align:center;}
 .main_logo{position:absolute;margin:auto;text-align:center;width:100%;top:110px;z-index:98}
+.main_logo .date {font-weight:bold; font-size:35px; color:#FFFFFF;}
 .main_img{display:inline-block;max-width:50%;}
 
 .pos_sponsor {position:absolute;width:570px;height:200px;top:360px;right:50%;margin-right:-300px;opacity:1;z-index:100}
