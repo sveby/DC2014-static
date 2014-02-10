@@ -79,8 +79,8 @@ p {text-align:justify; font-size:15px;}
 .main_logo .sub_date {font-size:22px; font-weight:bold;}
 .main_img{display:inline-block;max-width:100%;}
 
-.sponsor{position: relative;z-index:100; text-align: center; margin-top: 10px; margin-bottom: 10px;}
-.pos_sponsor {z-index:110; color: white; max-width: 550px; display: inline-block;}
+.sponsor{position: relative;z-index:100; text-align: center; margin-top: 35px; margin-bottom: 10px;}
+.pos_sponsor {z-index:110; color: white; max-width: 550px; display: inline-block; }
 .pos_sponsor_background {
     position: absolute;
     z-index:100;
@@ -126,7 +126,7 @@ p {text-align:justify; font-size:15px;}
 .news_s {height:15px;}
 
 .speakers{position:relative;background-color:#f8f8f8;color:#ffffff;min-height:315px;text-align:center;}
-.img_sp {display:inline-block;margin-right:29px;width:135px;height:135px;background-color:#57b4db;color:#ffffff;}
+.img_sp {display:inline-block;margin:0 5px;width:135px;height:135px;background-color:#57b4db;color:#ffffff;}
 .img_sp:hover { color: #57b4db}
 .naz_sp {display:none;width:135px;height:135px;background-color:#57b4db;}
 .img_sp:hover .img_sp1{opacity:0.4;}
@@ -138,7 +138,8 @@ p {text-align:justify; font-size:15px;}
 .sp_sch{position:relative;min-height:250px; margin-top: 90px;padding:5px; padding-bottom: 0;}
 .info3 {float: right;}
 .button {width:200px;height:28px;background-color:#57b4db;opacity:0.7;text-align:center;float:right;}
-.social{background-color:#d9d9d9;min-height:130px;padding:5px;}
+.social {background-color:#d9d9d9;min-height:145px;padding:5px;text-align:right;}
+.social a {border:0px none}
 .pb5:after {
     content: ' ';
     display: block;
@@ -171,4 +172,4 @@ p {text-align:justify; font-size:15px;}
 .copy1 {width:60%;font-size:12px;}
 .copy2 {width:30%;font-size:14px;}
 }
-
+.ui-front, .ui-dialog { z-index:300 !important; }
