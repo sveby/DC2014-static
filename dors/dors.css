@@ -87,7 +87,7 @@ p {text-align:justify; font-size:15px;}
 
 
 .panel {position:relative;top:600px;width:100%;min-height:250px;text-align:center;margin-top:-4px;background-color:#d9d9d9}
-.sub_panel {margin:auto;max-width:1000px;}
+.sub_panel {margin:auto;max-width:1000px}
 .info {margin:auto;display:inline-block;padding-top:15px;vertical-align:top;text-align:left;}
 .info1 {float:left;max-width:550px;}
 .info2 {max-width:350px; padding-left:0px;}
@@ -115,9 +115,16 @@ p {text-align:justify; font-size:15px;}
 .img_sp:hover .naz_sp{display:block;}
 
 
+.pb5{display: block;}
 .sp_sch{position:relative;width:100%;min-height:250px; margin-top: 90px;}
+.info3 {float: right;}
 .button {width:200px;height:28px;background-color:#57b4db;opacity:0.7;text-align:center;float:right;}
 .social{width:100%;background-color:#d9d9d9;height:130px;}
+.pb5:after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
 
 .osm {position:relative;top:60px;width:100%;height:400px;}
 .osm_map {width:100%;height:250px;}
