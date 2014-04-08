@@ -39,7 +39,7 @@
                         </div>
 			        </a>
 			        <a class="i_b_txt bn f52 w pt20" style="display:block;"  id="open_volunteers_dialog">
-					        Applications for volounteers
+					        Applications for volunteers
 			        </a>
 		        </div>
 		        <div class="info info2 fr">
@@ -93,7 +93,7 @@
                 <div class="f18 b t_a_r">view all speakers</div>
             </div>
             <div class="sub_panel ib speaker_container">
-                <div class="img_sp"><img class="img_sp1" src="<?php bloginfo('template_url');?>/speakers/unk.gif">You?</div>
+                <div class="img_sp"><a href="http://2014.dorscluc.org/hr/elizabeth-krumbach-joseph/"><img class="img_sp1" src="<?php bloginfo('template_url');?>/speakers/elizabeth_krumbach_135.png"></a></div>
                 <div class="img_sp"><img class="img_sp1" src="<?php bloginfo('template_url');?>/speakers/unk.gif">You?</div>
                 <div class="img_sp"><img class="img_sp1" src="<?php bloginfo('template_url');?>/speakers/unk.gif">You?</div>
                 <div class="img_sp"><img class="img_sp1" src="<?php bloginfo('template_url');?>/speakers/unk.gif">You?</div>
