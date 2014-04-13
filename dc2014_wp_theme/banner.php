@@ -34,7 +34,7 @@
                             are now possible!
                         </div>
 			        </a>
-			        <a class="i_b_txt bn f52 w pt20" style="display:block;"  id="open_volunteers_dialog">
+			        <a class="i_b_txt bn f52 w pt20" style="display:block;"  id="open_volunteers_dialog" href="https://docs.google.com/spreadsheet/viewform?usp=drive_web&formkey=dE1JSHFJTktUMVlpbDhkZXJSWXU0VVE6MA#gid=0">
 					        Applications for volounteers
 			        </a>
 		        </div>
@@ -42,8 +42,8 @@
 			        <div class="b bn f52">Open informatics</div>
 			        <div class="b bn f52">Award 2014</div>
 			        <!--<div class="b f18 pt28 h20"><a class="t_d_u" href="#" style="display:block">Apply here</a></div>-->
-			        <div class="f13 h52 w">The contest will be announced soon, only Croatian entities can apply.</div>
-			        <div class="f18 h20"><a style="display:block" class="w  t_d_u" href="http://www.open.hr/djelatnosti/nagrada-otvorena-informatika/" target="_blank">Read the rules here</a></div>
+			        <div class="f13 h52 w">The contest is open, only Croatian entities can apply.</div>
+			        <div class="f18 h20"><a style="display:block" class="w  t_d_u" href="http://www.open.hr/obavijesti/2014/04/natjecaj-za-dodjelu-nagrade-otvorena-informatika-za-postignuca-u-2013-godini/" target="_blank">Read the rules here (in Croatian)</a></div>
 		        </div>
 	        </div>
 	        <div class="clear"></div>
@@ -86,13 +86,13 @@
                             su otovrene!
                         </div>
 			        </a>
-			        <a class="i_b_txt bn f52 w pt20" style="display:block;"  id="open_volunteers_dialog">
+			        <a class="i_b_txt bn f52 w pt20" style="display:block;"  id="open_volunteers_dialog" href="https://docs.google.com/spreadsheet/viewform?usp=drive_web&formkey=dE1JSHFJTktUMVlpbDhkZXJSWXU0VVE6MA#gid=0">
 					        Prijave za volontere
 			        </a>
 		        </div>
 		        <div class="info info2 fr">
-			        <div class="b bn f52">Nagrada</div>
 			        <div class="b bn f52">Otvorena informatika</div>
+			        <div class="b bn f52"></div>
 			        <!--<div class="b f18 pt28 h20"><a class="t_d_u" href="#" style="display:block">Apply here</a></div>-->
 			        <div class="f13 h52 w">Natječaj je otvoren.</div>
 			        <div class="f18 h20"><a style="display:block" class="w  t_d_u" href="http://www.open.hr/obavijesti/2014/04/natjecaj-za-dodjelu-nagrade-otvorena-informatika-za-postignuca-u-2013-godini/" target="_blank">Pročitajte detalje.</a></div>

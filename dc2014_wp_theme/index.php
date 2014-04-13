@@ -9,7 +9,7 @@
         
         <?php include("main_menu_hack.php");?>
 
-		   <?php include("banner.php"); ?>        
+        <?php include("banner.php"); ?>        
 
         <div class="main_panel">
 	        <div class="sub_panel">
@@ -51,7 +51,7 @@
                 <div class="f18 b t_a_r">view all speakers</div>
             </div>
             <div class="sub_panel ib speaker_container">
-                <div class="img_sp"><img class="img_sp1" src="<?php bloginfo('template_url');?>/speakers/unk.gif">You?</div>
+                <div class="img_sp"><a href="http://2014.dorscluc.org/hr/elizabeth-krumbach-joseph/"><img class="img_sp1" src="<?php bloginfo('template_url');?>/speakers/elizabeth_krumbach_135.png"></a></div>
                 <div class="img_sp"><img class="img_sp1" src="<?php bloginfo('template_url');?>/speakers/unk.gif">You?</div>
                 <div class="img_sp"><img class="img_sp1" src="<?php bloginfo('template_url');?>/speakers/unk.gif">You?</div>
                 <div class="img_sp"><img class="img_sp1" src="<?php bloginfo('template_url');?>/speakers/unk.gif">You?</div>
