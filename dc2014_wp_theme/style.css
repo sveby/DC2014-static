@@ -118,6 +118,8 @@ p {text-align:justify; font-size:15px;}
 .sub_panel {margin:auto;max-width:1000px}
 .info {margin:auto;display:inline-block;padding-top:15px;vertical-align:top;text-align:left;}
 .info1 {float:left; max-width:600px;}
+.single_info1 {max-width: 750px; }
+
 .info2 {max-width:360px; padding-left:0px;}
 @media all and (max-width:900px)
 {
@@ -202,6 +204,6 @@ p {text-align:justify; font-size:15px;}
     width: 100%;
     margin-top: 40px;
 }
-.sidebar {float:left;}
+.sidebar {float:right;}
 .widget {list-style:none;}
 .widgettitle {text-align:center;}
