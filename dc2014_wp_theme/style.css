@@ -89,7 +89,7 @@ p {text-align:justify; font-size:15px;}
 .img_main {
     background-image:url('back.jpg');
 }
-.main_logo{position:relative;margin:auto;text-align:center;padding: 10px;z-index:98;}
+.main_logo{position:relative;margin:auto;text-align:center;padding: 10px;z-index:98;top:25px;}
 .main_logo .date {font-weight:bold; font-size:35px; color:#FFFFFF;}
 .main_logo .sub_date {font-size:22px; font-weight:bold;}
 .main_img{display:inline-block;max-width:100%;}
