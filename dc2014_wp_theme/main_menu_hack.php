@@ -2,13 +2,13 @@
 	         <div class="nav_triangle"></div>
             <?php
             $args = array(
-	            'theme_location'  => '',
-	            'menu'            => 'primary_menu',
+	            'theme_location'  => 'primary-menu',
+	            'menu'            => 'primary-menu',
 	            'container'       => '<span>',
 	            'container_class' => '',
 	            'container_id'    => '',
 	            'menu_class'      => 'menu',
-	            'menu_id'         => '',
+	            'menu_id'         => 'primary_menu',
 	            'echo'            => '0',
 	            'fallback_cb'     => 'wp_page_menu',
 	            'before'          => '',

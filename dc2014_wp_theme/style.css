@@ -27,6 +27,9 @@ p {text-align:justify; font-size:15px;}
 
 .clear { clear: both; }
 
+.fullwidth { width: 100% }
+.c { text-align: center !important}
+
 /*font sizes*/
 .f52 {font-size:52px;}
 .f42 {font-size:42px;}
@@ -68,6 +71,8 @@ p {text-align:justify; font-size:15px;}
 .pt28{padding-top:28px;}
 .mt40{margin-top:40px !important;}
 
+.pb28{padding-bottom:28px;}
+
 .h52 {height:52px;}
 .h26 {height:28px;}
 .h20 {height:20px;}
@@ -84,7 +89,7 @@ p {text-align:justify; font-size:15px;}
 .img_main {
     background-image:url('back.jpg');
 }
-.main_logo{position:relative;margin:auto;text-align:center;padding: 10px;z-index:98;}
+.main_logo{position:relative;margin:auto;text-align:center;padding: 10px;z-index:98;top:25px;}
 .main_logo .date {font-weight:bold; font-size:35px; color:#FFFFFF;}
 .main_logo .sub_date {font-size:22px; font-weight:bold;}
 .main_img{display:inline-block;max-width:100%;}
@@ -118,6 +123,8 @@ p {text-align:justify; font-size:15px;}
 .sub_panel {margin:auto;max-width:1000px}
 .info {margin:auto;display:inline-block;padding-top:15px;vertical-align:top;text-align:left;}
 .info1 {float:left; max-width:600px;}
+.single_info1 {max-width: 750px; }
+
 .info2 {max-width:360px; padding-left:0px;}
 @media all and (max-width:900px)
 {
@@ -164,6 +171,13 @@ p {text-align:justify; font-size:15px;}
 
 .footer{position:relative;background-color:#272727;height:90px;text-align:center;padding-top:15px}
 
+.subfooter-sponsors {
+    background-color: #F8F8F8;
+    min-height: 30px;
+    text-align:center;
+    width:100%;
+}
+
 @media all and (max-width:920px) 
 {
 /* .info {font-size:25px;} */
@@ -202,6 +216,44 @@ p {text-align:justify; font-size:15px;}
     width: 100%;
     margin-top: 40px;
 }
-.sidebar {float:left;}
+
+.sidebar {float:left; max-width:250px;}
+
 .widget {list-style:none;}
 .widgettitle {text-align:center;}
+
+.sponsor-logo-image {
+    max-width: 270px;
+}
+
+.gold-sponsor-logo-image {
+    max-width: 450px;
+}
+.silver-sponsor-logo-image {
+    max-width: 350px;
+}
+.micro-sponsor-logo-image {
+    max-width: 200px;
+}
+.sponsor-logo-image {}
+.sponsor-logo-image {}
+.alignleft{
+    float:left;
+}
+
+.sponsor-row {
+    width:100%;
+    text-align:center;
+    display:table;
+    height: 100px;
+}
+.sponsor-container {
+    display:table-cell;
+    vertical-align: middle;
+    text-align:center;
+}
+.media-sponsor-logo {
+    height:100px;
+    width:200px;
+    vertical-align:middle;
+}

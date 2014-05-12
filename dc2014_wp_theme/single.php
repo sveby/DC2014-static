@@ -11,7 +11,7 @@
 	        <div class="sub_panel">
         <?php if(have_posts()) : ?><?php while(have_posts()) : the_post(); ?>
         
-	            <div class="info info1 mt40">
+	            <div class="single_info1 info info1 mt40">
 	                <div class="b bn f52"><?php the_title(); ?></div>
 	                <div class="dg f13">
                         <?php the_post_thumbnail(); ?>
