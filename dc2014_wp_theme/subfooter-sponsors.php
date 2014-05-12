@@ -27,7 +27,6 @@ As a civil society organizatoin, a part of our income from every project is dona
             <img class="micro-sponsor-logo-image" src="<?php bloginfo('template_url');?>/sponsors/pointer-logo.png" alt="Pointer logo" title="Poduzeće POINTER d.o.o. specijalizirano je za primjenu informatičkih tehnologija u trgovini. Naš poslovni uspjeh temelji se na sveobuhvatnoj ponudi hardverskih i softverskih rješenja za trgovinu, na usmjerenju prema zadovoljenju potreba naših korisnika, i prije svega, na našoj stručnosti i visokoj razini usluge koju smo razvili u proteklih 18 godina postojanja. " />
         </a>
     
-    
         <!--  ENGLISH MEDIA PARTNERS -->
         
         <div class="info b f23 pb28 fullwidth c">
@@ -49,6 +48,7 @@ As a civil society organizatoin, a part of our income from every project is dona
     
     <?php else: ?>
     <?php /* CROATIAN SPONSORS PART: */ ?>
+
         <div class="info b f23 pb28 fullwidth c">
             Zahvaljujemo sponzorima:
         </div>
@@ -73,7 +73,6 @@ Kao organizacija civilnog društva, nije zaboravljen niti taj segment, te se Bus
 Naš poslovni uspjeh temelji se na sveobuhvatnoj ponudi hardverskih i softverskih rješenja za trgovinu, na usmjerenju prema zadovoljenju potreba naših korisnika, i prije svega, na našoj stručnosti i visokoj razini usluge koju smo razvili u proteklih 18 godina postojanja. " />
         </a>
         
-        
         <!--  CROATIAN MEDIA PARTNERS -->
         <div class="info b f23 pb28 fullwidth c">
             Medijski pokrovitelji:
@@ -96,7 +95,6 @@ Naš poslovni uspjeh temelji se na sveobuhvatnoj ponudi hardverskih i softverski
                 
             </div>
         </div>
-        
     
     <?php endif; ?>
         
