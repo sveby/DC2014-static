@@ -224,6 +224,7 @@ p {text-align:justify; font-size:15px;}
 
 .sponsor-logo-image {
     max-width: 270px;
+    max-height:162px;    
 }
 
 .gold-sponsor-logo-image {
@@ -234,14 +235,18 @@ p {text-align:justify; font-size:15px;}
 }
 .micro-sponsor-logo-image {
     max-width: 200px;
+    margin-right: 10px;
 }
 .sponsor-logo-image {}
 .sponsor-logo-image {}
-
 .alignleft{
     float:left;
 }
 
+.sponsor-logo {
+    margin-right:10px;
+    margin-bottom: 10px;
+}
 .sponsor-row {
     width:100%;
     text-align:center;
@@ -258,4 +263,3 @@ p {text-align:justify; font-size:15px;}
     width:200px;
     vertical-align:middle;
 }
-

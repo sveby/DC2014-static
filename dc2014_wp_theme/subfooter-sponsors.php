@@ -21,11 +21,17 @@ As a civil society organizatoin, a part of our income from every project is dona
         <br> <!-- Ordinary: -->
         <a href="http://www.site5.com/p/croatia-linux-meetup/" class="sponsor-logo"><img class="sponsor-logo-image" src="<?php bloginfo('template_url');?>/sponsors/site5-logo.png" alt="Site5 logo" title="Site5 is an international leader in affordable Web hosting solutions for individuals and businesses. For more than a decade, we have provided award-winning customer support and aggressively-priced hosting solutions to customers on six continents. We offer a variety of shared, reseller, cloud, and VPS hosting solutions from nearly two dozen datacenters located in eight different countries."/>
         </a>
+        <a href="http://www.hp.com" class="sponsor-logo"><img class="sponsor-logo-image" src="<?php bloginfo('template_url');?>/sponsors/hp_blue_270.jpg" alt="HP logo" title=""/>
+        </a>
+        
+        <a href="http://www.carnet.hr" class="sponsor-logo"><img class="sponsor-logo-image" src="<?php bloginfo('template_url');?>/sponsors/carnet.jpg" alt="CARNet logo" title=""/>
+        </a>
         
         <br> <!-- Micro: -->
         <a href="http://www.pointer.hr/" class="sponsor-logo">
             <img class="micro-sponsor-logo-image" src="<?php bloginfo('template_url');?>/sponsors/pointer-logo.png" alt="Pointer logo" title="Poduzeće POINTER d.o.o. specijalizirano je za primjenu informatičkih tehnologija u trgovini. Naš poslovni uspjeh temelji se na sveobuhvatnoj ponudi hardverskih i softverskih rješenja za trgovinu, na usmjerenju prema zadovoljenju potreba naših korisnika, i prije svega, na našoj stručnosti i visokoj razini usluge koju smo razvili u proteklih 18 godina postojanja. " />
         </a>
+    
     
         <!--  ENGLISH MEDIA PARTNERS -->
         
@@ -43,12 +49,22 @@ As a civil society organizatoin, a part of our income from every project is dona
                 <a href="http://www.racunalo.com/" class="sponsor-logo media-sponsor-logo">
                     <img class="micro-sponsor-logo-image" src="<?php bloginfo('template_url');?>/sponsors/racunalo_com.png" alt="Racunalo.com logo" title="" />
                 </a>
+                <a href="http://www.muktware.com/" class="sponsor-logo media-sponsor-logo">
+                    <img class="micro-sponsor-logo-image" src="<?php bloginfo('template_url');?>/sponsors/muktware.png" alt="Muktware logo" title=""  style="max-height:100px" />
+                </a>
             </div>
         </div>
-    
+
+        <div class="sponsor-row">
+            <div class="sponsor-container">        
+        <!--<a href="http://www.tportal.hr/" class="sponsor-logo media-sponsor-logo">
+                    <img class="micro-sponsor-logo-image" src="<?php bloginfo('template_url');?>/sponsors/tportal.png" alt="tportal logo" title="" />
+                </a>-->
+            </div>
+        </div>
+            
     <?php else: ?>
     <?php /* CROATIAN SPONSORS PART: */ ?>
-
         <div class="info b f23 pb28 fullwidth c">
             Zahvaljujemo sponzorima:
         </div>
@@ -67,11 +83,18 @@ Kao organizacija civilnog društva, nije zaboravljen niti taj segment, te se Bus
         <br> <!-- Ordinary: -->
         <a href="http://www.site5.com/p/croatia-linux-meetup/" class="sponsor-logo"><img class="sponsor-logo-image" src="<?php bloginfo('template_url');?>/sponsors/site5-logo.png" title="Site5 is an international leader in affordable Web hosting solutions for individuals and businesses. For more than a decade, we have provided award-winning customer support and aggressively-priced hosting solutions to customers on six continents. We offer a variety of shared, reseller, cloud, and VPS hosting solutions from nearly two dozen datacenters located in eight different countries."/></a>
         
+        <a href="http://www.hp.com" class="sponsor-logo"><img class="sponsor-logo-image" src="<?php bloginfo('template_url');?>/sponsors/hp_blue_270.jpg" alt="HP logo" title=""/>
+        </a>
+        
+        <a href="http://www.carnet.hr" class="sponsor-logo"><img class="sponsor-logo-image" src="<?php bloginfo('template_url');?>/sponsors/carnet.jpg" alt="CARNet logo" title=""/>
+        </a>
+        
         <br> <!-- Micro: -->
         <a href="http://www.pointer.hr/" class="sponsor-logo">
             <img class="micro-sponsor-logo-image" src="<?php bloginfo('template_url');?>/sponsors/pointer-logo.png" alt="Pointer logo" title="Poduzeće POINTER d.o.o. specijalizirano je za primjenu informatičkih tehnologija u trgovini.
 Naš poslovni uspjeh temelji se na sveobuhvatnoj ponudi hardverskih i softverskih rješenja za trgovinu, na usmjerenju prema zadovoljenju potreba naših korisnika, i prije svega, na našoj stručnosti i visokoj razini usluge koju smo razvili u proteklih 18 godina postojanja. " />
         </a>
+        
         
         <!--  CROATIAN MEDIA PARTNERS -->
         <div class="info b f23 pb28 fullwidth c">
@@ -90,11 +113,18 @@ Naš poslovni uspjeh temelji se na sveobuhvatnoj ponudi hardverskih i softverski
                 </a>
                 
                 <a href="http://www.muktware.com/" class="sponsor-logo media-sponsor-logo">
-                    <img class="micro-sponsor-logo-image" src="<?php bloginfo('template_url');?>/sponsors/muktware_logo_w200.png" alt="Racunalo.com logo" title="" />
+                    <img class="micro-sponsor-logo-image" src="<?php bloginfo('template_url');?>/sponsors/muktware.png" alt="Muktware logo" title=""  style="max-height:100px" />
                 </a>
-                
             </div>
         </div>
+        <div class="sponsor-row">
+            <div class="sponsor-container">
+                <!--<a href="http://www.tportal.hr/" class="sponsor-logo media-sponsor-logo">
+                    <img class="micro-sponsor-logo-image" src="<?php bloginfo('template_url');?>/sponsors/tportal.png" alt="tportal logo" title="" />
+                </a>-->
+            </div>
+        </div>
+        
     
     <?php endif; ?>
         
