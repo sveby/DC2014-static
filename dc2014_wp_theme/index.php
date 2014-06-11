@@ -20,7 +20,7 @@
                         <?php the_post_thumbnail(); ?>
                         <?php the_content(); ?>
                         <p class="postmetadata">
-                            <?php  the_author(); ?> <?php edit_post_link('Edit', ' &#124; ', '');?>
+                            <?php  /*the_author();*/ ?> <?php edit_post_link('Edit', '', '');?>
                         </p>	
                     </div>
                     <?php break; ?>

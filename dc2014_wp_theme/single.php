@@ -17,7 +17,7 @@
                         <?php the_post_thumbnail(); ?>
                         <?php the_content(); ?>
                         <p class="postmetadata">
-                            <?php  the_author(); ?> <?php edit_post_link('Edit', ' &#124; ', ''); $numPosts++; ?>
+                            <?php  /*the_author();*/ ?> <?php edit_post_link('Edit', '', ''); $numPosts++; ?>
                         </p>	
 	                </div>
 	            </div> <!-- info info1 -->
