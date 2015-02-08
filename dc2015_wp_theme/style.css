@@ -27,15 +27,15 @@ html { margin-top: 0px !important; }
 * {
     font-family: 'Ubuntu','BebasNeue','Ubuntu-RI';
 }
-body {font-family: 'Ubuntu','BebasNeue','Ubuntu-RI';padding:0;margin:0;font-size:14px;background-color:#ffffff;color:#57b4db;font-weight:400;}
+body {font-family: 'Ubuntu','BebasNeue','Ubuntu-RI';padding:0;margin:0;font-size:15px;background-color:#ffffff;color:#57b4db;font-weight:400;}
 a {text-decoration:none;font-family: 'Ubuntu';color:#57b4db;cursor:pointer;}/*opacity:0.7*/
 a:hover {text-decoration:underline;}
 .ui-widget-content a {color:#57b4db !important;}
 h2 {color:#2c2c2c;z-index:0}
-p {text-align:justify; font-size:15px;}
+p, li {text-align:justify;line-height:120%;}
 .t_d_u {text-decoration:underline;}
 
-.ui{font-family: "Ubuntu-RI";}
+.ui{font-family: "Ubuntu";}
 .bn{font-family: "BebasNeue", "Arial Narrow"}
 
 .clear { clear: both; }
