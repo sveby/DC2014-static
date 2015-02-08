@@ -67,7 +67,7 @@
 
             <div class="pos_sponsor sponsor">
                 <div class="pos_sponsor_overlay">
-                    <div class="b_txt f42 w sponsor-title">
+                    <div class="b_txt f36 w sponsor-title">
                         <a id="secondary_open_sponsorship_dialog" class="w">Zainteresirani za sponzorstvo?</a>
                     </div>
                     <div class="n_txt f13 w">Želite se povezati s korisnicima ili predstaviti zajednici?<br>DORS/CLUC je idealno mjesto za to!</div>
