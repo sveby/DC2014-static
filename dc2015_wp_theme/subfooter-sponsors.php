@@ -14,7 +14,7 @@
                 </a>
             </div>
         </div>
-        
+<?php /*        
         <div class="info b f23 pb28 fullwidth c">
             Conference partners:
         </div>
@@ -145,7 +145,9 @@ As a civil society organizatoin, a part of our income from every project is dona
                 </a>
             </div>
         </div>
-            
+
+    <?php */ ?>    
+        
     <?php else: ?>
     <?php /* CROATIAN SPONSORS PART: */ ?>
         <div class="info b f23 pb28 fullwidth c">
@@ -161,6 +163,7 @@ As a civil society organizatoin, a part of our income from every project is dona
                 </a>
             </div>
         </div>
+        <?php /*
         <div class="info b f23 pb28 fullwidth c">
             Partneri konferencije:
         </div>
@@ -290,7 +293,7 @@ Kao organizacija civilnog društva, nije zaboravljen niti taj segment, te se Bus
             </div>
         </div>
         
-    
+    <?php */ ?>
     <?php endif; ?>
         
 </div>
