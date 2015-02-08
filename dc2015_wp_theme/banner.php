@@ -11,14 +11,14 @@
                 <br>
             </div>
 
+
             <div class="pos_sponsor sponsor">
-                <div class="pos_sponsor_background"></div>
                 <div class="pos_sponsor_overlay">
-                    <div class="pos_sponsor b_txt f42 w">
+                    <div class="b_txt f36 w sponsor-title">
                         <a id="secondary_open_sponsorship_dialog" class="w">Want to be a sponsor?</a>
                     </div>
-                    <div class="pos_sponsor n_txt f14 w">Want to connect with your users or introduce yourself to the open source community?<br>There is no better place than the biggest croatian open technology conference.</div>
-                    <div class="pos_sponsor m_txt"><a class="f25 w" href="mailto:info@dorscluc.org">contact us!</a></div>
+                    <div class="n_txt f14 w">Want to connect with your users or introduce yourself to the open source community?<br>There is no better place than the biggest croatian open technology conference.</div>
+                    <div class="m_txt" style="margin-top:15px;margin-bottom:10px;"><a class="f25 w t_d_u"  href="mailto:info@dorscluc.org">contact us!</a></div>
                     <!--<div class="pos_sponsor bm_txt w">or <a class="f18 w" href>contact</a> us the way you prefer :)</div>-->
                 </div>
             </div>
