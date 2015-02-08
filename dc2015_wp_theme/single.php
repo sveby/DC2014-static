@@ -12,7 +12,10 @@
         <?php if(have_posts()) : ?><?php while(have_posts()) : the_post(); ?>
 
                 <div class="single_info1 info info1 mt40">
+                    <br/>
                     <div class="b bn f52"><?php the_title(); ?></div>
+                    <br/>
+                    <br/>
                     <div class="dg">
                         <?php the_post_thumbnail(); ?>
                         <?php the_content(); ?>
