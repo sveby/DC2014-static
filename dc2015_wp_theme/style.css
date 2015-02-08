@@ -7,15 +7,16 @@ Author URI: http://www.twitter.com/sprstacic
 Version: 1.0
 */
 
-@font-face {font-family: "Ubuntu-R";src: url(Ubuntu-R.ttf) format("truetype");}
+
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,700,700italic,500&subset=latin,latin-ext);
 @font-face {font-family: "BebasNeue";src: url(BebasNeue.otf) format("truetype");}
 @font-face {font-family: "Ubuntu-RI";src: url(Ubuntu-RI.itf) format("truetype");}
 
 * {
-    font-family: 'Ubuntu-R','BebasNeue','Ubuntu-RI';
+    font-family: 'Ubuntu','BebasNeue','Ubuntu-RI';
 }
-body {font-family: 'Ubuntu-R','BebasNeue','Ubuntu-RI';padding:0;margin:0;font-size:14px;background-color:#ffffff;color:#57b4db;}
-a {text-decoration:none;font-family: 'Ubuntu-R';color:#57b4db;cursor:pointer;}/*opacity:0.7*/
+body {font-family: 'Ubuntu','BebasNeue','Ubuntu-RI';padding:0;margin:0;font-size:14px;background-color:#ffffff;color:#57b4db;font-weight:500;}
+a {text-decoration:none;font-family: 'Ubuntu';color:#57b4db;cursor:pointer;}/*opacity:0.7*/
 a:hover {text-decoration:underline;}
 .ui-widget-content a {color:#57b4db !important;}
 h2 {color:#2c2c2c;z-index:0}
@@ -81,21 +82,88 @@ p {text-align:justify; font-size:15px;}
 .nav {position:absolute;top:0px;left:0px;width:100%;height:50px;text-align:center;z-index:99}
 .nav_triangle{display:hidden}
 .nav_links {padding-top:20px;padding-right:15px;}
-.nav_links a {font-size:16px;}
+.nav_links a {font-size:16px;font-weight:500;}
 
 
 .header {position:relative;top:50px;}
-.img_main {position:relative;min-height:500px;left:0px;text-align:center; margin-top: 18px;}
+/*
+.img_main {position:relative;min-height:500px;left:0px;text-align:center; margin-top: 50px;}
+*/
+
+/*
 .img_main {
+    width: 100% !important;
     background-image:url('back.jpg');
+    background-repeat:none;
 }
-.main_logo{position:relative;margin:auto;text-align:center;padding: 10px;z-index:98;top:25px;}
+*/
+.img_main {
+/*
+width:100%;
+*/
+/*
+position:relative;
+*/
+height:440px;
+
+/*
+text-align:center;
+*/
+margin-top: 50px;
+}
+
+.img_main img.img_main_back {
+    position:absolute;
+    width: 100% !important;
+    text-align:center;
+    max-height:440px;
+}
+.main_logo{
+position:relative;
+margin:auto;
+text-align:center;
+padding: 10px;
+z-index:98;
+}
+.main_logo img {
+    margin: 15px auto 20px auto;
+    height:130px;
+}
+
 .main_logo .date {font-weight:bold; font-size:35px; color:#FFFFFF;}
 .main_logo .sub_date {font-size:22px; font-weight:bold;}
+/*
 .main_img{display:inline-block;max-width:100%;}
+*/
 
+/*
 .sponsor{position: relative;z-index:100; text-align: center; margin-top: 35px; margin-bottom: 10px;}
 .pos_sponsor {z-index:110; color: white; max-width: 550px; display: inline-block; }
+*/
+.pos_sponsor {
+    margin: 15px auto 0 auto;
+    padding: 10px;
+text-align: center;
+color: white;
+max-width: 550px;
+/*
+display: inline-block;
+*/
+
+    background-color:rgba(38, 77, 98, 0.7);
+/*
+    background-color:#264d62;
+*/
+/*
+    opacity:0.4;
+*/
+position: relative;
+}
+.sponsor-title {
+    margin-bottom:15px;
+}
+
+/*
 .pos_sponsor_background {
     position: absolute;
     z-index:100;
@@ -104,6 +172,8 @@ p {text-align:justify; font-size:15px;}
     background-color:#264d62;
     opacity:0.4;
 }
+*/
+/*
 .pos_sponsor_overlay {
     position: relative;
     z-index: 110;
@@ -111,6 +181,7 @@ p {text-align:justify; font-size:15px;}
 .pos_sponsor_overlay div {
     padding: 5px;
 }
+*/
 
 .b_txt {text-align:center;}
 .n_txt {top:445px;}
@@ -119,12 +190,23 @@ p {text-align:justify; font-size:15px;}
 .bm_txt {top:525px;}
 
 
-.panel {position:relative;min-height:250px;text-align:center;margin-top:-4px;background-color:#d9d9d9;padding: 5px;}
-.sub_panel {margin:auto;max-width:1000px; clear:both;}
-.info {margin:auto;display:inline-block;padding-top:15px;vertical-align:top;text-align:left;}
-.info1 {float:left; max-width:600px;}
-.single_info1 {max-width: 750px; }
+.panel {position:relative;min-height:210px;text-align:center;margin-top:-4px;background-color:#d9d9d9;padding: 5px;}
+.applications .sub_panel {
+padding-top:20px;
+}
+.sub_panel {margin:auto;max-width:1000px}
+.info {
+margin:auto;
+display:inline-block;
+padding-top:15px;
+vertical-align:top;
+text-align:left;
+}
+.info .f52{
+line-height:85%;
+}
 
+.info1 {float:left;max-width:550px;}
 .info2 {max-width:360px; padding-left:0px;}
 @media all and (max-width:900px)
 {
@@ -134,11 +216,15 @@ p {text-align:justify; font-size:15px;}
 .info2 {display:inline-block;max-width:350px; padding-left:0px; padding-bottom: 10px;}
 }
 
-.main_panel{position:relative;min-height:270px;padding: 5px;}
+.main_panel{
+position:relative;
+min-height:270px;
+padding:30px 5px;
+}
 .main_panel .info2 {
     padding-left: 40px;
 }
-.news_bar {width:300px;min-height:60px;border-bottom:1px solid #d9d9d9;}
+.news_bar {width:300px;min-height:200px;}
 .news_c {height:40px;}
 .news_s {height:15px;}
 
@@ -151,11 +237,21 @@ p {text-align:justify; font-size:15px;}
 .img_sp:hover .naz_sp{display:block;}
 
 
-.sub_panel{padding:5px;}
+.sub_panel{
+padding:5px;
+height:35px;
+border-color: #c5c5c5;
+}
+.sub_panel .info {
+padding:3px 0 0 0;
+}
+.sp_sch .sub_panel * {
+font-family:"BebasNeue";
+}
 .pb5{display: block;}
-.sp_sch{position:relative;min-height:250px; margin-top: 90px;padding:5px; padding-bottom: 0;}
+.sp_sch{position:relative;min-height:220px; margin-top: 70px;padding:5px; padding-bottom: 0;}
 .info3 {float: right;}
-.button {width:200px;height:28px;background-color:#57b4db;opacity:0.7;text-align:center;float:right;}
+.button {width:200px;height:28px;background-color:#53b1d7;text-align:center;float:right;}
 .social {background-color:#d9d9d9;min-height:145px;padding:5px;text-align:right;}
 .social a {border:0px none}
 .pb5:after {
@@ -178,7 +274,7 @@ p {text-align:justify; font-size:15px;}
     width:100%;
 }
 
-@media all and (max-width:920px) 
+@media all and (max-width:920px)
 {
 /* .info {font-size:25px;} */
 /* .main_logo {top:60px;} */
@@ -217,6 +313,13 @@ p {text-align:justify; font-size:15px;}
     margin-top: 40px;
 }
 
+h3 {
+margin: 0 0 5px 0;
+}
+
+.news_pos{
+    margin-top:30px;
+}
 .sidebar {float:left; max-width:250px;}
 
 .widget {list-style:none;}
@@ -227,6 +330,11 @@ p {text-align:justify; font-size:15px;}
     max-height:162px;    
 }
 
+.news_bar .news_heading {
+border-bottom: 1px solid #d9d9d9;
+margin-bottom:15px;
+padding-bottom:15px;
+}
 .gold-sponsor-logo-image {
     max-width: 450px;
 }
@@ -243,6 +351,16 @@ p {text-align:justify; font-size:15px;}
     float:left;
 }
 
+.mb35{margin-bottom:35px;}
+.mb25{margin-bottom:25px;}
+.arrow_up {
+margin-bottom:15px;
+display:block;
+height:35px;
+background-image: url('arr_up.png');
+background-repeat:no-repeat;
+background-position: center;
+}
 .sponsor-logo {
     margin-right:10px;
     margin-bottom: 10px;
@@ -270,15 +388,34 @@ p {text-align:justify; font-size:15px;}
     display:inline-block;
 }
 
+.arrow_down {
+margin-top:15px;
+display:block;
+height:35px;
+background-image: url('arr_dn.png');
+background-repeat:no-repeat;
+display:block;
+background-position: center;
+}
 table {
     border: 1px solid #D9D9D9;
+}
+.arrow_up:hover, .arrow_down:hover{
+text-decoration:none;
 }
 tr {
     border: 1px dotted #D9D9D9;
 }
+.w100 {
+    width: 100%;
+    margin-top: 40px;
+}
 td  {
     border: 1px dotted #D9D9D9;
 }
+.sidebar {float:left;}
+.widget {list-style:none;}
+.widgettitle {text-align:center;}
 th {
     border-bottom: 1px solid #D9D9D9;
 }
