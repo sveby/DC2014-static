@@ -2,15 +2,27 @@
 Theme Name: DORS/CLUC 2015
 Theme URI: http://2015.dorscluc.org/
 Description: DORS/CLUC C2015 tema
-Author: WordPress theme and CSS: Svebor Prstačić, Krešimir Kroflin; Design: Lucijana Dujić, Responsive template: Vesna Rus 
+Author: WordPress theme and CSS: Svebor Prstačić, Krešimir Kroflin; Design: Lucijana Dujić, Responsive template: Vesna Rus
 Author URI: http://www.twitter.com/sprstacic
 Version: 1.0
 */
 
-
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:400,700,700italic,500&subset=latin,latin-ext);
 @font-face {font-family: "BebasNeue";src: url(BebasNeue.otf) format("truetype");}
 @font-face {font-family: "Ubuntu-RI";src: url(Ubuntu-RI.itf) format("truetype");}
+
+
+/*
+disable stupid WP stuff
+*/
+
+html { margin-top: 0px !important; }
+* html body { margin-top: 0px !important; }
+@media screen and ( max-width: 782px ) {
+    html { margin-top: 0px !important; }
+    * html body { margin-top: 0px !important; }
+}
+
 
 * {
     font-family: 'Ubuntu','BebasNeue','Ubuntu-RI';
@@ -327,7 +339,7 @@ margin: 0 0 5px 0;
 
 .sponsor-logo-image {
     max-width: 270px;
-    max-height:162px;    
+    max-height:162px;
 }
 
 .news_bar .news_heading {
