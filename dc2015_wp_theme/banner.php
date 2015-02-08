@@ -71,7 +71,7 @@
                         <a id="secondary_open_sponsorship_dialog" class="w">Zainteresirani za sponzorstvo?</a>
                     </div>
                     <div class="n_txt f13 w">Želite se povezati s korisnicima ili predstaviti zajednici?<br>DORS/CLUC je idealno mjesto za to!</div>
-                    <div class="m_txt"><a class="f25 w" href="mailto:info@dorscluc.org">kontaktirajte nas!</a></div>
+                    <div class="m_txt" style="margin-top:15px;margin-bottom:10px;"><a class="f25 w" href="mailto:info@dorscluc.org">kontaktirajte nas!</a></div>
                 </div>
             </div>
         </div>
