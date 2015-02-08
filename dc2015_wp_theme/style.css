@@ -441,3 +441,11 @@ th {
     padding: 15px 0;
 }
 
+
+/* forme */
+input.ss-q-short, textarea.ss-q-long {
+    width: 100%;
+}
+.ss-form-question {
+margin: 10px 0 15px 0;
+}
