@@ -98,9 +98,9 @@ margin-top: 50px;
 
 .img_main img.img_main_back {
     position:absolute;
-    width: 100% !important;
     text-align:center;
-    max-height:440px;
+    height:440px;
+    width: 100% !important;
 }
 .main_logo{
 position:relative;
