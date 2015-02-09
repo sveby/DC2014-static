@@ -30,10 +30,8 @@
 
         <?php endif; //end have_posts <div class="up_arrow"></div> ?>
 
-
-<!--
                 <?php get_sidebar(); ?>
--->
+
 
             </div> <!-- sub_panel-->
         </div><!-- main_panel -->

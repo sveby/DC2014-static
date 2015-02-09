@@ -6,15 +6,15 @@
         <div class="ib dg p10">2015</div>
     </div>
     <div class="info info2 ib">
-        <div class="f18 b t_a_r"><a>apply as a speaker!</a></div>
+        <div class="f18 b t_a_r"><a href="/en/talk-and-workshop-applications/">apply as a speaker!</a></div>
     </div>
     <div class="sub_panel ib speaker_container">
-        <div class="img_sp"><a href="/en/register"><img class="img_sp1" src="<?php bloginfo('template_url');?>/speakers/unk.gif">?</a></div>
-        <div class="img_sp"><a href="/en/register"><img class="img_sp1" src="<?php bloginfo('template_url');?>/speakers/unk.gif">?</a></div>
-        <div class="img_sp"><a href="/en/register"><img class="img_sp1" src="<?php bloginfo('template_url');?>/speakers/unk.gif">?</a></div>
-        <div class="img_sp"><a href="/en/register"><img class="img_sp1" src="<?php bloginfo('template_url');?>/speakers/unk.gif">?</a></div>
-        <div class="img_sp"><a href="/en/register"><img class="img_sp1" src="<?php bloginfo('template_url');?>/speakers/unk.gif">?</a></div>
-        <div class="img_sp"><a href="/en/register"><img class="img_sp1" src="<?php bloginfo('template_url');?>/speakers/unk.gif">?</a></div>    
+        <div class="img_sp"><a href="/en/talk-and-workshop-applications/"><img class="img_sp1" src="<?php bloginfo('template_url');?>/speakers/unk.gif">?</a></div>
+        <div class="img_sp"><a href="/en/talk-and-workshop-applications/"><img class="img_sp1" src="<?php bloginfo('template_url');?>/speakers/unk.gif">?</a></div>
+        <div class="img_sp"><a href="/en/talk-and-workshop-applications/"><img class="img_sp1" src="<?php bloginfo('template_url');?>/speakers/unk.gif">?</a></div>
+        <div class="img_sp"><a href="/en/talk-and-workshop-applications/"><img class="img_sp1" src="<?php bloginfo('template_url');?>/speakers/unk.gif">?</a></div>
+        <div class="img_sp"><a href="/en/talk-and-workshop-applications/"><img class="img_sp1" src="<?php bloginfo('template_url');?>/speakers/unk.gif">?</a></div>
+        <div class="img_sp"><a href="/en/talk-and-workshop-applications/"><img class="img_sp1" src="<?php bloginfo('template_url');?>/speakers/unk.gif">?</a></div>    
     </div>
     <!--<div class="sub_panel t_a_l f17 b p52 pt8">Could it be you?</div>-->
     <div class="sub_panel t_a_l f17 b p52 pt8"></div>
@@ -31,15 +31,15 @@
         <div class="ib dg p10">2015</div>
     </div>
     <div class="info info2 ib">
-        <div class="f18 b t_a_r"><a>prijavi predavanje</a></div>
+        <div class="f18 b t_a_r"><a href="/hr/prijave-predavanja-i-radionica/">prijavi predavanje</a></div>
     </div>
     <div class="sub_panel ib speaker_container">
-        <div class="img_sp"><a href="/hr/register"><img class="img_sp1" src="<?php bloginfo('template_url');?>/speakers/unk.gif">?</a></div>
-        <div class="img_sp"><a href="/hr/register"><img class="img_sp1" src="<?php bloginfo('template_url');?>/speakers/unk.gif">?</a></div>
-        <div class="img_sp"><a href="/hr/register"><img class="img_sp1" src="<?php bloginfo('template_url');?>/speakers/unk.gif">?</a></div>
-        <div class="img_sp"><a href="/hr/register"><img class="img_sp1" src="<?php bloginfo('template_url');?>/speakers/unk.gif">?</a></div>
-        <div class="img_sp"><a href="/hr/register"><img class="img_sp1" src="<?php bloginfo('template_url');?>/speakers/unk.gif">?</a></div>
-        <div class="img_sp"><a href="/hr/register"><img class="img_sp1" src="<?php bloginfo('template_url');?>/speakers/unk.gif">?</a></div>
+        <div class="img_sp"><a href="/hr/prijave-predavanja-i-radionica/"><img class="img_sp1" src="<?php bloginfo('template_url');?>/speakers/unk.gif">?</a></div>
+        <div class="img_sp"><a href="/hr/prijave-predavanja-i-radionica/"><img class="img_sp1" src="<?php bloginfo('template_url');?>/speakers/unk.gif">?</a></div>
+        <div class="img_sp"><a href="/hr/prijave-predavanja-i-radionica/"><img class="img_sp1" src="<?php bloginfo('template_url');?>/speakers/unk.gif">?</a></div>
+        <div class="img_sp"><a href="/hr/prijave-predavanja-i-radionica/"><img class="img_sp1" src="<?php bloginfo('template_url');?>/speakers/unk.gif">?</a></div>
+        <div class="img_sp"><a href="/hr/prijave-predavanja-i-radionica/"><img class="img_sp1" src="<?php bloginfo('template_url');?>/speakers/unk.gif">?</a></div>
+        <div class="img_sp"><a href="/hr/prijave-predavanja-i-radionica/"><img class="img_sp1" src="<?php bloginfo('template_url');?>/speakers/unk.gif">?</a></div>
     </div>
     <!--<div class="sub_panel t_a_l f17 b p52 pt8">Možda ste to vi?</div>-->
     <div class="sub_panel t_a_l f17 b p52 pt8"></div>
