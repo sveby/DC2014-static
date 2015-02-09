@@ -117,7 +117,7 @@ width:100%;
 /*
 position:relative;
 */
-height:440px;
+height:460px;
 
 /*
 text-align:center;
@@ -128,7 +128,7 @@ margin-top: 50px;
 .img_main img.img_main_back {
     position:absolute;
     text-align:center;
-    height:440px;
+    height:460px;
     width: 100% !important;
 }
 
